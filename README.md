@@ -146,7 +146,8 @@ you must init the HttpManager or HttpAsyncTaskManager
 then you can use it as follows
 
 
-String url3 = "http://www.11huaiyun.com/sitemap.xml";
+ 
+               String url3 = "http://www.11huaiyun.com/sitemap.xml";
   		http.request(url3, new InputStreamTaskHandler() {
 
 				@Override
