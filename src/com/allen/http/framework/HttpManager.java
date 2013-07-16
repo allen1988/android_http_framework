@@ -110,7 +110,7 @@ public class HttpManager implements Request {
 					}
 				});
 			} else
-				throw new RuntimeException("context is must be Activity.");
+				throw new MyException("context is must be Activity.");
 
 		}
 
@@ -195,7 +195,7 @@ public class HttpManager implements Request {
 					}
 				});
 			} else
-				throw new RuntimeException("context is must be Activity.");
+				throw new MyException("context is must be Activity.");
 			IOUtils.closeStream(result);
 		}
 	}
